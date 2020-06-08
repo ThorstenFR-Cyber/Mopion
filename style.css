@@ -1,0 +1,106 @@
+table {
+    border-collapse: collapse;
+}
+
+.carre {
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+
+.titre {
+  font-size: 80px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#Zone1 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+}
+
+#Zone2 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    background-position: center; /* ligne à supprimer */
+}
+
+#Zone3 {
+    border-bottom: solid 10px black;
+    border-left: solid 10px black;
+    background-position: right; /* ligne à supprimer */
+}
+
+#Zone4 {
+    border-right: solid 10px black;
+    border-bottom: solid 10px black;
+    border-top: solid 10px black;
+}
+
+#Zone5 {
+    border: solid 10px black;
+
+}
+
+#Zone6 {
+    border-left: solid 10px black;
+    border-bottom: solid 10px black;
+    border-top: solid 10px black;
+}
+
+#Zone7 {
+    border-right: solid 10px black;
+    border-top: solid 10px black;
+}
+
+#Zone8 {
+    border-right: solid 10px black;
+    border-left: solid 10px black;
+    border-top: solid 10px black;
+
+}
+
+#Zone9 {
+    border-left: solid 10px black;
+    border-top: solid 10px black;
+}
+
+.jeu {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rejouer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.bouton {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    background-color: #C3C2C2;
+    border-radius: 20px;
+    border: none;
+}
+
+#notif{
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 75%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  z-index: 1;
+  width: 20%;
+  text-align: center;
+  background-color: gray;
+}
