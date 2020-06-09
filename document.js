@@ -8,7 +8,7 @@
   function Initialisation() {                                         //Il inialise à chaque modification
     document.getElementById("rejouer").style.visibility = "hidden";   //On cache le bouton "Rejouer"
     document.getElementById("notif").style.visibility = "hidden";     //On cache la notif
-  };
+  }
 
   function alertMessagePlayeur(niveauAlert, joueurAppeler){                           //Function alert message si erreur ou win
 
@@ -68,7 +68,7 @@
         i += 1;                                                                       //On plus 1 à I pour la bloucle
         }
       }
-  };
+  }
 
   function Score() {
     document.getElementById('scoreX').textContent = winJoueurO;                       //Afficher le score
@@ -87,9 +87,9 @@
 
       if(winJoueurO > 5) {                                                            //Si le joueurs égale 5 ou audessus
         alertMessagePlayeur(3, winJoueurO);                                           //Fenetre affiche le winer
-      };
-    };
-  };
+      }
+    }
+  }
 
   function jouer(zone) {                                                             //Recupère le nom de la zone cliquée via "zone"
 
@@ -124,7 +124,7 @@
       }
     }
     checking();                                                                                     //On fait un check :)
-  };
+  }
 
   function checking() {
     one   = document.getElementById('Zone1').textContent; //Definition des getelement pour racourcir le if()
@@ -167,7 +167,7 @@
       stopManche = true;                                                    //Plus un pour bloquer les actions de la manche terminer
       Score();                                                              //Appel de la function Score
     }
-  };
+  }
 
   /* Les sources des codes que j'ai pris ou des aide trouvée.
     les code de base: https://github.com/bZez/JS-Morpion
