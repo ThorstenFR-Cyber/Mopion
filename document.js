@@ -83,7 +83,7 @@
 
       if(winJoueurX > 5) {                                                            //Si le joueurs égale 5 ou audessus
         alertMessagePlayeur(3, winJoueurX);                                           //Fenetre affiche le winer
-      };
+      }
 
       if(winJoueurO > 5) {                                                            //Si le joueurs égale 5 ou audessus
         alertMessagePlayeur(3, winJoueurO);                                           //Fenetre affiche le winer
