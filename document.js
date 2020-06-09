@@ -4,15 +4,6 @@
   let joueur     = 1;         //On définit le joueurs qui commance
   let play       = 0;         //Le nombre de tours d'une manche
   let stopManche = false;     //Stoper la manche qui est terminer;
-  let one   = document.getElementById('Zone1').textContent; //Definition des getelement pour racourcir le if()
-  let two   = document.getElementById('Zone2').textContent;
-  let three = document.getElementById('Zone3').textContent;
-  let four  = document.getElementById('Zone4').textContent;
-  let five  = document.getElementById('Zone5').textContent;
-  let six   = document.getElementById('Zone6').textContent;
-  let seven = document.getElementById('Zone7').textContent;
-  let eight = document.getElementById('Zone8').textContent;
-  let nine  = document.getElementById('Zone9').textContent;
 
   function Initialisation() {                                         //Il inialise à chaque modification
     document.getElementById("rejouer").style.visibility = "hidden";   //On cache le bouton "Rejouer"
@@ -136,6 +127,15 @@
   }
 
   function checking() {
+    one   = document.getElementById('Zone1').textContent; //Definition des getelement pour racourcir le if()
+    two   = document.getElementById('Zone2').textContent;
+    three = document.getElementById('Zone3').textContent;
+    four  = document.getElementById('Zone4').textContent;
+    five  = document.getElementById('Zone5').textContent;
+    six   = document.getElementById('Zone6').textContent;
+    seven = document.getElementById('Zone7').textContent;
+    eight = document.getElementById('Zone8').textContent;
+    nine  = document.getElementById('Zone9').textContent;
 
     if(play === 9){                    //Si la 9 tour qui sont passé
       alertMessagePlayeur(4, null);    //Fenetre d'alert
